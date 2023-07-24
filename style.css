@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto',sans-serif;
+    color: #fff;
+}
+
+.rocky{
+    height: 100vh;
+    width: 100%;
+    background: #000;
+    background-size: cover;
+}
+
+img{
+    position: absolute;
+    width: 389px;
+    height: 389px;
+    left: 15%;
+    bottom: 20%;
+}
+
+.content{
+    height: 18vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content h2{
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.content h2:hover{
+    color: purple;
+}
+
+.content ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 30px;
+    font-weight: bold;
+}
+
+.content ul li a{
+    font-size: 13px;
+    text-decoration: none;
+    letter-spacing: 5px;
+    transition: .3s;
+}
+
+.content ul li a:hover{
+    color: purple;
+}
+
+.main{
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    font-size: 100px;
+    letter-spacing: 20px;
+    font-weight: bold;
+}
+
+h1:hover{
+    color: purple;
+}
+
+h3{
+    font-size: 60px;
+    font-weight: 400px;
+    letter-spacing: 40px;
+    margin-bottom: 7px;
+}
+
+h3:hover{
+    color: purple;
+}
+
+p{ 
+    font-size: 30px;
+    letter-spacing: 20px;
+}
